@@ -1,0 +1,25 @@
+package calculator;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MyController {
+	@RequestMapping("add")
+	public void add() {
+		System.out.println("add");
+	}
+	@RequestMapping("sub")
+	public void sub() {
+		System.out.println("sub");
+	}
+	@RequestMapping("mul")
+	public void mul() {
+		System.out.println("mul");
+	}
+	@RequestMapping("div")
+	public void div() {
+		System.out.println("div");
+	}
+
+}

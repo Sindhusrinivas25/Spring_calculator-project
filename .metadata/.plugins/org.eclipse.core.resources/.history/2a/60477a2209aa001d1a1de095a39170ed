@@ -1,0 +1,13 @@
+package emp.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Employee {
+	int id;
+	String name;
+	long mobile;
+	String email;
+	String password;
+
+}

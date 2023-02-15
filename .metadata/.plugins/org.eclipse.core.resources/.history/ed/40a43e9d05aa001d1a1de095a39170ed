@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="signup1">
+<h1 style="color:red"> Signup</h1><br>
+    Name:<input type="text" name="name" placeholder="enter name"><br>
+
+ phone no:<input type="number" name="mobile" placeholder="enter number"><br>
+   Email:<input type="text" name="name"><br>
+Password:<input type="password" name="password" ><br>
+Gender:  <input type="radio" id="pp" name="gender" value="male">male
+         <input type="radio" id="ee" name="gender" value="female">female <br>
+Address:<textarea name="address" rows="5" cols="25"> </textarea>   <br>    
+<button>signup</button> <button type="reset">cancel</button>
+
+</form>
+
+</body>
+</html>
